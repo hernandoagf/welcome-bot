@@ -4,6 +4,8 @@
   "description": "A Discord bot to welcome users to the server",
   "main": "src/bot.js",
   "scripts": {
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hernando Guzman",
